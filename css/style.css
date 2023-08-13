@@ -452,3 +452,26 @@
 .om {
     margin-inline: 5%;
 }
+
+.heading_main{
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 400px) {
+    .heading_main{
+        font-size: 17px;
+    }
+    .logo-image{
+        width: 50px;
+    }
+    .navbar-toggler{
+        font-size: .8rem;
+    }
+}
